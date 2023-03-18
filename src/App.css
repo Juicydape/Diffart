@@ -1,0 +1,389 @@
+button {
+	border: none;
+	background-color: transparent;
+	font-family: inherit;
+	font-size: 1.6rem;
+	color: inherit;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+.start-box {
+	display: flex;
+	width: 35rem;
+	padding: 3rem;
+	margin-left: -1rem;
+	border-radius: 30px;
+	border: 2px solid;
+	background-color: var(--sunflowers-bgc);
+	box-shadow: 1rem -1rem;
+	font-size: 3rem;
+	color: var(--sunflowers-elem);
+}
+
+.start-box__content-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 0 3rem;
+}
+
+.start-box__app-name {
+	margin: 2.1rem 0 3rem;
+}
+
+.start-box__app-name::before,
+.start-box__app-name::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 20px;
+	outline: 2px solid;
+}
+
+.start-box__app-name::before {
+	height: 91.7%;
+}
+
+.start-box__app-name::after {
+	height: 23%;
+}
+
+.start-box__app-description {
+	font-size: 2rem;
+	text-align: justify;
+}
+
+.start-box__paintings-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.start-box__paintings-wrapper img {
+	width: 48%;
+}
+
+.btns-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	gap: 9px;
+	width: 23rem;
+	margin-top: 0.6rem;
+	padding: 1rem;
+	padding-top: calc(1.2rem + 1px);
+	border-radius: 30px;
+	border: 2px solid;
+	background-color: var(--sunflowers-bgc);
+	z-index: 2;
+}
+
+.btns-box__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 9px;
+	height: 2.2em;
+	padding: 1rem 1.3rem;
+	border-radius: 20px;
+	background-color: var(--btns-bgc);
+	box-shadow: 3px -3px var(--btns-shadow);
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: var(--btns-color);
+}
+
+.btns-box__btn--volume,
+.btns-box__btn--theme {
+	width: 2.2em;
+	font-size: 1.9rem;
+}
+
+.btns-box__btn--play {
+	height: 2em;
+}
+
+.find-diffs-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1.5rem;
+	border-radius: 30px;
+	border: 2px solid;
+}
+
+.top-bar {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.top-bar__wrapper {
+	display: flex;
+	gap: 1rem;
+}
+
+.top-bar__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.3rem;
+	height: 3.3rem;
+	border-radius: 50%;
+}
+
+.top-bar__btn--info {
+	border: 2px solid;
+	z-index: 20;
+}
+
+.painting-info {
+	position: absolute;
+	right: 0;
+	display: flex;
+	width: 0;
+	background-color: var(--body-bgc);
+	border-radius: 17px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.painting-info.is-open {
+	width: auto;
+	padding: 0.8rem 4rem 0.7rem 1rem;
+	border: 2px solid;
+}
+
+.diffs-counter {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+	padding: 0 0.5rem;
+	border-radius: 20px;
+	border: 2px solid;
+}
+
+.diffs-counter__light {
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 50%;
+	border: 2px solid;
+}
+
+.diffs-counter__light.turn-on {
+	background-color: currentColor;
+}
+
+.paintings-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	margin: auto;
+}
+
+.paintings-wrapper__painting {
+	position: relative;
+	overflow: hidden;
+}
+
+.paintings-wrapper__diff {
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid transparent;
+}
+
+.paintings-wrapper__diff.found {
+	border-color: #f2ede4;
+}
+
+.paintings-wrapper__diff.hint {
+	animation: hint 1.2s;
+}
+
+.vertical {
+	height: calc((100vh - 10rem) / 2);
+}
+.horizontal {
+	width: calc(100vw - 4.4rem);
+}
+
+.winning-screen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	width: 100vw;
+	height: 100vh;
+	z-index: 100;
+	color: #f0cf75;
+	overflow: hidden;
+	animation: appearing 2s forwards;
+}
+
+.winning-screen::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 90%;
+	z-index: -1;
+}
+
+.winning-screen__wrapper--left {
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 50%;
+	height: 62%;
+	font-size: 3rem;
+	opacity: 0;
+	animation: appearing 1s 2s forwards;
+	z-index: 100;
+}
+
+.winning-screen__wrapper--left p {
+	padding-right: 4px;
+}
+
+.winning-screen__wrapper--right {
+	position: relative;
+	width: 50%;
+	height: 80%;
+	bottom: -80%;
+	animation: from-bottom 1s 1s forwards;
+}
+
+.winning-screen img {
+	position: relative;
+	left: -10rem;
+	height: 100%;
+}
+
+.winning-screen__btn {
+	background-color: #f0cf75;
+	color: #241416;
+	font-size: 2rem;
+	padding: 1rem 1.5rem;
+	border-radius: 20px;
+	box-shadow: 3px -3px #9e753b;
+	text-transform: uppercase;
+}
+
+@media (orientation: landscape) {
+	.find-diffs-box {
+		padding: 1rem;
+	}
+	.paintings-wrapper {
+		flex-direction: row;
+	}
+
+	.vertical {
+		height: calc(100vh - 8rem);
+	}
+
+	.horizontal {
+		width: calc((100vw - 4rem) / 2);
+	}
+}
+@media (min-width: 768px) and (min-height: 450px) {
+	body {
+		padding: 1.5rem 0 0.5rem;
+	}
+
+	.find-diffs-box {
+		margin-left: -1rem;
+		padding: 1.5rem;
+		box-shadow: 1rem -1rem;
+	}
+	.vertical {
+		height: 32rem;
+	}
+
+	.horizontal {
+		width: 35rem;
+	}
+}
+@media (min-width: 992px) {
+	.vertical {
+		height: 40rem;
+	}
+
+	.horizontal {
+		width: 40rem;
+	}
+}
+@media (min-width: 1200px) {
+	.vertical {
+		height: 42rem;
+	}
+
+	.horizontal {
+		width: 44rem;
+	}
+}
+@media (min-width: 1400px) {
+	.start-box {
+		width: 40rem;
+		font-size: 3.6rem;
+	}
+	.start-box__app-name::before {
+		height: 92.3%;
+	}
+	.start-box__app-description {
+		font-size: 2.42rem;
+	}
+	.vertical {
+		height: 47rem;
+	}
+	.horizontal {
+		width: 59rem;
+	}
+}
+
+@keyframes hint {
+	0%,
+	50%,
+	100% {
+		border-color: transparent;
+	}
+	25%,
+	75% {
+		border-color: #f2ede4;
+	}
+}
+@keyframes appearing {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+@keyframes from-bottom {
+	0% {
+		bottom: -80%;
+	}
+	100% {
+		bottom: 0;
+	}
+}

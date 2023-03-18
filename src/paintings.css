@@ -1,0 +1,362 @@
+.sunflowers {
+	background-color: var(--sunflowers-bgc);
+	color: var(--sunflowers-elem);
+}
+.sunflowers .top-bar__btn--left {
+	background-color: var(--sunflowers-elem);
+	color: var(--sunflowers-bgc);
+}
+.sunflowers .diff-1 {
+	top: 3%;
+	left: 18%;
+	width: 5%;
+	height: 13%;
+}
+.sunflowers .diff-2 {
+	top: 30%;
+	right: 12%;
+	width: 12%;
+	height: 9%;
+}
+.sunflowers .diff-3 {
+	bottom: 12.3%;
+	left: 38.5%;
+	width: 5%;
+	height: 11%;
+	transform: rotate(-50deg);
+}
+.sunflowers .diff-4 {
+	bottom: 31%;
+	right: 8%;
+	width: 19%;
+	height: 12%;
+}
+.sunflowers .diff-5 {
+	bottom: 19%;
+	right: 0;
+	width: 29%;
+	height: 3%;
+}
+
+.olympia {
+	background-color: var(--olympia-bgc);
+	color: var(--olympia-elem);
+}
+.olympia .top-bar__btn--left {
+	background-color: var(--olympia-elem);
+	color: var(--olympia-bgc);
+}
+.olympia .diff-1 {
+	top: 21%;
+	left: 20.5%;
+	width: 4%;
+	height: 8.5%;
+}
+.olympia .diff-2 {
+	top: 9.5%;
+	right: 20.5%;
+	width: 10%;
+	height: 5%;
+	transform: rotate(25deg);
+}
+.olympia .diff-3 {
+	bottom: -13%;
+	left: 0;
+	width: 35%;
+	height: 25%;
+	transform: rotate(40deg);
+}
+.olympia .diff-4 {
+	top: 37%;
+	right: 32.5%;
+	width: 10%;
+	height: 12%;
+}
+.olympia .diff-5 {
+	bottom: 39%;
+	left: 12.8%;
+	width: 2%;
+	height: 3.5%;
+}
+
+.forest {
+	background-color: var(--forest-bgc);
+	color: var(--forest-elem);
+}
+.forest .top-bar__btn--left {
+	background-color: var(--forest-elem);
+	color: var(--forest-bgc);
+}
+.forest .diff-1 {
+	top: 28.5%;
+	left: 18.5%;
+	width: 12%;
+	height: 8%;
+	transform: rotate(-20deg);
+}
+.forest .diff-2 {
+	top: 22.5%;
+	right: 22.5%;
+	width: 5%;
+	height: 11%;
+}
+.forest .diff-3 {
+	bottom: 39%;
+	left: 15.6%;
+	width: 6%;
+	height: 5%;
+}
+.forest .diff-4 {
+	bottom: 30.5%;
+	right: 22%;
+	width: 9%;
+	height: 4%;
+	transform: rotate(20deg);
+}
+.forest .diff-5 {
+	top: 5.5%;
+	right: 30%;
+	width: 4%;
+	height: 6%;
+}
+
+.garden-of-delights {
+	background-color: var(--garden-of-delights-bgc);
+	color: var(--garden-of-delights-elem);
+}
+.garden-of-delights .top-bar__btn--left {
+	background-color: var(--garden-of-delights-elem);
+	color: var(--garden-of-delights-bgc);
+}
+.garden-of-delights .diff-1 {
+	top: 28%;
+	left: 26.5%;
+	width: 6.5%;
+	height: 11%;
+}
+.garden-of-delights .diff-2 {
+	top: 48%;
+	right: 14%;
+	width: 4%;
+	height: 7%;
+}
+.garden-of-delights .diff-3 {
+	bottom: 22.5%;
+	left: 18%;
+	width: 4%;
+	height: 12%;
+	transform: rotate(55deg);
+}
+.garden-of-delights .diff-4 {
+	bottom: 14%;
+	left: 32%;
+	width: 9%;
+	height: 13%;
+}
+.garden-of-delights .diff-5 {
+	bottom: 5%;
+	right: 39%;
+	width: 2%;
+	height: 10%;
+	transform: rotate(25deg);
+}
+
+.starry-night {
+	background-color: var(--starry-night-bgc);
+	color: var(--stary-night-elem);
+}
+.starry-night .top-bar__btn--left {
+	background-color: var(--stary-night-elem);
+	color: var(--starry-night-bgc);
+}
+.starry-night .diff-1 {
+	top: 44.5%;
+	left: 9.5%;
+	width: 6%;
+	height: 8%;
+}
+.starry-night .diff-2 {
+	top: 8.3%;
+	right: 2.7%;
+	width: 11%;
+	height: 15%;
+}
+.starry-night .diff-3 {
+	bottom: 17%;
+	left: 56%;
+	width: 2%;
+	height: 17%;
+}
+.starry-night .diff-4 {
+	top: 34%;
+	right: 16.5%;
+	width: 4%;
+	height: 5.5%;
+}
+.starry-night .diff-5 {
+	bottom: 28.7%;
+	right: -29%;
+	width: 68%;
+	height: 9%;
+	transform: rotate(-13deg);
+}
+
+.american-gothic {
+	background-color: var(--american-gothic-bgc);
+	color: var(--american-gothic-elem);
+}
+.american-gothic .top-bar__btn--left {
+	background-color: var(--american-gothic-elem);
+	color: var(--american-gothic-bgc);
+}
+.american-gothic .diff-1 {
+	top: 0;
+	left: 41.7%;
+	width: 3.5%;
+	height: 5%;
+}
+.american-gothic .diff-2 {
+	top: 17.7%;
+	right: 51%;
+	width: 11%;
+	height: 2%;
+}
+.american-gothic .diff-3 {
+	bottom: 41%;
+	left: 22%;
+	width: 5%;
+	height: 5%;
+}
+.american-gothic .diff-4 {
+	bottom: 24%;
+	right: 44%;
+	width: 3%;
+	height: 34%;
+}
+.american-gothic .diff-5 {
+	bottom: 7%;
+	right: 34%;
+	width: 7%;
+	height: 4%;
+}
+
+.spring {
+	background-color: var(--spring-bgc);
+	color: var(--spring-elem);
+}
+.spring .top-bar__btn--left {
+	background-color: var(--spring-elem);
+	color: var(--spring-bgc);
+}
+.spring .diff-1 {
+	top: 0;
+	right: 10%;
+	width: 12%;
+	height: 11%;
+}
+.spring .diff-2 {
+	top: 11.6%;
+	right: 31%;
+	width: 13%;
+	height: 9%;
+}
+.spring .diff-3 {
+	top: 36.6%;
+	left: 40%;
+	width: 8%;
+	height: 6%;
+}
+.spring .diff-4 {
+	top: 40.6%;
+	right: 41%;
+	width: 6%;
+	height: 7%;
+}
+.spring .diff-5 {
+	top: 55.7%;
+	left: 38%;
+	width: 6%;
+	height: 4%;
+}
+
+.girl-with-chrys {
+	background-color: var(--girl-with-chrys-bgc);
+	color: var(--girl-with-chrys-elem);
+}
+.girl-with-chrys .top-bar__btn--left {
+	background-color: var(--girl-with-chrys-elem);
+	color: var(--girl-with-chrys-bgc);
+}
+.girl-with-chrys .diff-1 {
+	top: 30%;
+	left: 45.5%;
+	width: 6%;
+	height: 3%;
+}
+.girl-with-chrys .diff-2 {
+	top: 14%;
+	right: 14%;
+	width: 20%;
+	height: 6%;
+	transform: rotate(20deg);
+}
+.girl-with-chrys .diff-3 {
+	top: 40%;
+	right: -3%;
+	width: 10%;
+	height: 12%;
+	transform: rotate(-30deg);
+}
+.girl-with-chrys .diff-4 {
+	bottom: 37%;
+	left: 35%;
+	width: 13%;
+	height: 10%;
+}
+.girl-with-chrys .diff-5 {
+	bottom: 32%;
+	left: 9%;
+	width: 11%;
+	height: 9%;
+}
+
+.garden-of-death {
+	background-color: var(--garden-of-death-bgc);
+	color: var(--garden-of-death-elem);
+}
+.garden-of-death .top-bar__btn--left {
+	background-color: var(--garden-of-death-elem);
+	color: var(--garden-of-death-bgc);
+}
+.garden-of-death .diff-1 {
+	top: 20%;
+	right: 29%;
+	width: 3%;
+	height: 7%;
+	transform: rotate(20deg);
+}
+.garden-of-death .diff-2 {
+	top: 9.5%;
+	right: 9%;
+	width: 5%;
+	height: 5%;
+}
+.garden-of-death .diff-3 {
+	bottom: 23%;
+	right: 16.5%;
+	width: 6%;
+	height: 8%;
+}
+.garden-of-death .diff-4 {
+	bottom: 6%;
+	left: 35%;
+	width: 6%;
+	height: 19%;
+	transform: rotate(-15deg);
+}
+.garden-of-death .diff-5 {
+	bottom: 28.5%;
+	left: 17%;
+	width: 7%;
+	height: 10%;
+}

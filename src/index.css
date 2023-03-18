@@ -1,0 +1,70 @@
+:root {
+	font-size: 62.5%;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: var(--body-bgc);
+	font-family: "Titan One";
+}
+
+body.light-theme {
+	--body-bgc: #f2ede4;
+	--btns-shadow: #ab8523;
+	--btns-bgc: #f2ede4;
+	--btns-color: #662018;
+	--mini-border: transparent;
+	--sunflowers-bgc: #e5be4f;
+	--sunflowers-elem: #662018;
+	--olympia-bgc: #e1cbc7;
+	--olympia-elem: #4b1417;
+	--forest-bgc: #b3d2d7;
+	--forest-elem: #1d3126;
+	--garden-of-delights-bgc: #bcb969;
+	--garden-of-delights-elem: #403f09;
+	--starry-night-bgc: #a9c3db;
+	--stary-night-elem: #1a1d57;
+	--american-gothic-bgc: #e0c085;
+	--american-gothic-elem: #3d280b;
+	--spring-bgc: #d1b0a6;
+	--spring-elem: #1a1512;
+	--girl-with-chrys-bgc: #cac9ce;
+	--girl-with-chrys-elem: #444450;
+	--garden-of-death-bgc: #d5a635;
+	--garden-of-death-elem: #0e120d;
+}
+
+body.dark-theme {
+	--body-bgc: #1b1b1b;
+	--btns-shadow: transparent;
+	--btns-bgc: #e5be4f;
+	--btns-color: var(--body-bgc);
+	--mini-border: #e5be4f;
+	--sunflowers-bgc: var(--body-bgc);
+	--sunflowers-elem: #cea739;
+	--olympia-bgc: var(--body-bgc);
+	--olympia-elem: #cfb0aa;
+	--forest-bgc: var(--body-bgc);
+	--forest-elem: #78a265;
+	--garden-of-delights-bgc: var(--body-bgc);
+	--garden-of-delights-elem: #a3a136;
+	--starry-night-bgc: var(--body-bgc);
+	--stary-night-elem: #8aadce;
+	--american-gothic-bgc: var(--body-bgc);
+	--american-gothic-elem: #d3b682;
+	--spring-bgc: var(--body-bgc);
+	--spring-elem: #cba29a;
+	--girl-with-chrys-bgc: var(--body-bgc);
+	--girl-with-chrys-elem: #bbb9c5;
+	--garden-of-death-bgc: var(--body-bgc);
+	--garden-of-death-elem: #d5a635;
+}
