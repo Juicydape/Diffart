@@ -58,7 +58,7 @@ a {
 }
 
 .start-box__app-description {
-	font-size: 2rem;
+	font-size: 1.95rem;
 	text-align: justify;
 }
 
@@ -74,11 +74,9 @@ a {
 
 .btns-box {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	gap: 9px;
-	width: 23rem;
 	margin-top: 0.6rem;
 	padding: 1rem;
 	padding-top: calc(1.2rem + 1px);
