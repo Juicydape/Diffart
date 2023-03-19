@@ -58,7 +58,7 @@ a {
 }
 
 .start-box__app-description {
-	font-size: 1.95rem;
+	font-size: 1.9rem;
 	text-align: justify;
 }
 
@@ -215,7 +215,7 @@ a {
 }
 
 .vertical {
-	height: calc((100vh - 10rem) / 2);
+	height: calc((100vh - 11rem) / 2);
 }
 .horizontal {
 	width: calc(100vw - 4.4rem);
