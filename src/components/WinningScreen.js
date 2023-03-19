@@ -18,6 +18,7 @@ export default function WinningScreen({ isGameOver }) {
 					sizes="(max-height: 650px) 600px,
 				850px"
 					src="img/mona-lisa-850.png"
+					alt="Mona Lisa"
 				/>
 			</div>
 		</div>

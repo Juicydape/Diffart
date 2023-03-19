@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect, useContext } from "react";
+import React, { createContext, useState, useContext } from "react";
 import { SoundContext } from "./SoundContext";
 
 export const ThemeContext = createContext();
