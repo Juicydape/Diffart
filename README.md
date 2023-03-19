@@ -1,6 +1,6 @@
 # Diffart
 
-Diffart is a simple and intuitive spot the differences game based on famous classic paintings.
+[Diffart](https://diffart.netlify.app) is a simple and intuitive spot the differences game based on famous classic paintings.
 
 ## How to play - demo
 
