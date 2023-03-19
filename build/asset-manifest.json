@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Diffart/static/css/main.6f06654e.css",
+    "main.js": "/Diffart/static/js/main.1a86df66.js",
+    "index.html": "/Diffart/index.html",
+    "main.6f06654e.css.map": "/Diffart/static/css/main.6f06654e.css.map",
+    "main.1a86df66.js.map": "/Diffart/static/js/main.1a86df66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f06654e.css",
+    "static/js/main.1a86df66.js"
+  ]
+}
