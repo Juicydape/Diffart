@@ -2,10 +2,11 @@
 
 Diffart is a simple and intuitive spot the differences game based on famous classic paintings.
 
-## Instruction
+## How to play - demo
 
 Just click "play" then click the differences you find.
-![Diffart - game instruction.](/public/img/readme-usage.jpg)
+
+https://user-images.githubusercontent.com/112972325/226165539-387dc74a-2042-4d4b-b271-ad8d3c4140d5.mp4
 
 ## Built using:
 
@@ -17,9 +18,9 @@ Just click "play" then click the differences you find.
 
 ## Roadmap
 
-- [] add more levels (more paintings)
-- [] add "painting selection" page
-- [] add localStorage
+- [ ] add more levels (more paintings)
+- [ ] add "painting selection" page
+- [ ] add localStorage
 
 ## Author
 
