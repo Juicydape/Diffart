@@ -46,7 +46,7 @@ export default function FindDiffsBox({ painting, lastId }) {
 		}
 	};
 
-	const showHint = () => {
+	const handleShowHint = () => {
 		const nonFoundDiffs = diffs.filter((diff) => !diffFound[diff]);
 		if (nonFoundDiffs.length > 0) {
 			const randomDiff =
@@ -76,7 +76,7 @@ export default function FindDiffsBox({ painting, lastId }) {
 					<VolumeBtn className="top-bar__btn top-bar__btn--left" />
 					<ThemeBtn className="top-bar__btn top-bar__btn--left" />
 					<button
-						onClick={showHint}
+						onClick={handleShowHint}
 						className="top-bar__btn top-bar__btn--left">
 						<i className="fa-solid fa-magnifying-glass"></i>
 					</button>

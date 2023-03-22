@@ -7,7 +7,7 @@ export const SoundProvider = ({ children }) => {
 	function playClickSound() {
 		new Audio("/audio/button-click.wav").play().currentTime = 0;
 	}
-	const toggleMute = () => {
+	const handleToggleMute = () => {
 		setIsMuted((prevState) => !prevState);
 		if (isMuted) {
 			playClickSound();
@@ -15,7 +15,7 @@ export const SoundProvider = ({ children }) => {
 	};
 
 	return (
-		<SoundContext.Provider value={{ isMuted, toggleMute }}>
+		<SoundContext.Provider value={{ isMuted, handleToggleMute }}>
 			{children}
 		</SoundContext.Provider>
 	);

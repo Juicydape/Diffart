@@ -3,7 +3,7 @@ import "./paintings.css";
 import FindDiffsBox from "./components/FindDiffsBox";
 import StartBox from "./components/StartBox";
 import paintingsData from "./paintingsData";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { SoundProvider } from "./contexts/SoundContext";
 
@@ -23,12 +23,10 @@ function App() {
 	return (
 		<SoundProvider>
 			<ThemeProvider>
-				<BrowserRouter>
-					<Routes>
-						<Route exact path="/" Component={StartBox} />
-						{paintings}
-					</Routes>
-				</BrowserRouter>
+				<Routes>
+					<Route exact path="/" Component={StartBox} />
+					{paintings}
+				</Routes>
 			</ThemeProvider>
 		</SoundProvider>
 	);

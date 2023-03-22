@@ -2,9 +2,9 @@ import { useContext } from "react";
 import { SoundContext } from "../contexts/SoundContext";
 
 export default function VolumeBtn(props) {
-	const { isMuted, toggleMute } = useContext(SoundContext);
+	const { isMuted, handleToggleMute } = useContext(SoundContext);
 	return (
-		<button onClick={toggleMute} className={props.className}>
+		<button onClick={handleToggleMute} className={props.className}>
 			{isMuted ? (
 				<i className="fa-solid fa-volume-xmark"></i>
 			) : (

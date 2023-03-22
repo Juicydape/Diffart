@@ -9,7 +9,7 @@ export const ThemeProvider = ({ children }) => {
 	function playClickSound() {
 		new Audio("/audio/button-click.wav").play().currentTime = 0;
 	}
-	const toggleTheme = () => {
+	const handleToggleTheme = () => {
 		const newTheme = theme === "light-theme" ? "dark-theme" : "light-theme";
 		document.body.className = newTheme;
 		setTheme(newTheme);
@@ -19,7 +19,7 @@ export const ThemeProvider = ({ children }) => {
 	};
 
 	return (
-		<ThemeContext.Provider value={{ theme, toggleTheme }}>
+		<ThemeContext.Provider value={{ theme, handleToggleTheme }}>
 			{children}
 		</ThemeContext.Provider>
 	);
